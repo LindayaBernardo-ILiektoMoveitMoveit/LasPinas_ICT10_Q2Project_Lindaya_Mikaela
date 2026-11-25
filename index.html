@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap Links and Scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+
+    <!--CSS Linking so that it's cleaner(taught last year)-->
+    <link href="general-main.css" rel="stylesheet" type="text/css">
+
+    <!--References for the CSS file cuz idk how to comment there:
+        The design of the webpage is inspired by the scp wiki
+        The SCP wiki for reference: http://scp-wiki.wikidot.com/-->
+
+    <title>2Q Project</title>
+
+</head>
+<body>
+
+    <!--Navigation Hamburger Bar-->
+    <!--The navbar came from previous year, I jst pasted it here from previous projects. Then I kept tweaking it till there was no color so I could put a style for a gradient as the color-->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="height: 80px;">
+                <img src="scp-black.png" height="60" class="rounded-circle mt-2">
+                </a>
+
+                <h1 style="color: white;">SCP Foundation</h1>
+
+                <!--I think mt or mb or ms means margin top, margin bottom, and margin side respectively. So I put those there so that I can adjust things more precisely-->
+
+                <!--Cool Hamborger Bar Button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" style="color: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div></div>
+                <div class="collapse navbar-collapse" id="nav">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item"><a class="nav-link" href="index.html" style="color: white;">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="checker.html" style="color: white;">ELEMENT CHECKER</a></li>
+                        <li class="nav-item"><a class="nav-link" href="club.html" style="color: white;">MEMBERS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="creator.html" style="color: white;">Meet the Creator</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        
+        </nav>
+
+    <!--Main Home Content-->
+
+        <div class="container card mt-5">
+            <center>
+                <h1>SITE 1946</h1>
+            </center>
+            
+            <p>Welcome to Site-1946. This webpage's design was heavily inspired by the design of the SCP wiki,
+                it is collabative website about "anomalous objects" contained by the SCP Foundation, 
+                a secretive (albeit fictional) organization tasked to hide these things from humanity. 
+                Most of the writing of authors (I think) are separated into files with designations SCP-001 and onwards. 
+                You can check out the <a href="https://scp-wiki.wikidot.com/" target="_blank">SCP wiki</a> if you have the time, some of the files are pretty cool, like SCP-049.
+            </p>
+            
+        </div>
+
+    <!--I learned how to do the box shadow thing from w3schools, I usually get my help from there. Here is the specific source link: https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow2-->
+
+    <!--Reference for all the resources used in this specific webpage:
+        The SCP logo (black): https://www.pngegg.com/en/search?q=SCP+Foundation#google_vignette-->
+
+    <!--Color Palette for Webpage Consistency: 
+    rgb(109, 66, 66) - brownish
+    rgb(17, 18, 17) - black
+    rgb(187, 0, 17) - red
+    rgb(80, 80, 80) - grey 1
+    rgb(59, 59, 59) - grey 2-->
+
+</body>
+</html>
